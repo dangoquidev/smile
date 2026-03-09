@@ -1,0 +1,10 @@
+{
+    "theme": {
+        "file": "/ventoy/theme.txt",
+        "gfxmode": "800x600",
+		"ventoy_color": "#001930",
+        "fonts": [
+            "/ventoy/ter-u32n.pf2"
+        ]
+    }
+}

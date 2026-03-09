@@ -1,0 +1,87 @@
+title-text: " "
+terminal-font: " "
+message-font: " "
+message-color: "#e6e6e6"
+desktop-image: "background.png"
+desktop-color: "black"
+
++ boot_menu {
+    left = 10%
+    width = 80%
+    top = 10%
+    height = 80%
+    menu_pixmap_style = "menu_*.png"
+    item_font = " "
+    item_color = "black"
+    item_height = 30
+    item_spacing = 1
+    item_padding = 1
+    selected_item_color = "#c8c4b7"
+    selected_item_pixmap_style = "select_*.png"
+    item_icon_space = 0
+}
+
++ hbox {
+    left = 5%
+    width = 10%
+    top = 90%-25
+    height = 25
+    + label {
+        text = "@VTOY_MEM_DISK@"
+        font = " "
+        color = "white"
+        align = "left"
+    }
+}
+
++ hbox {
+    left = 5%
+    width = 10%
+    top = 90%-50
+    height = 25
+    + label {
+        text = "@VTOY_ISO_RAW@"
+        font = " "
+        color = "white"
+        align = "left"
+    }
+}
+
++ hbox {
+    left = 5%+200
+    width = 10%
+    top = 90%-50
+    height = 25
+    + label {
+        text = "@VTOY_GRUB2_MODE@"
+        font = " "
+        color = "white"
+        align = "left"
+    }
+}
+
++ hbox {
+    left = 5%+200
+    width = 10%
+    top = 90%-25
+    height = 25
+    + label {
+        text = "@VTOY_WIMBOOT_MODE@"
+        font = " "
+        color = "white"
+        align = "left"
+    }
+}
+
++ hbox {
+    left = 90%
+    width = 10%
+    top = 55
+    height = 25
+    + label {
+        text = "@VTOY_ISO_UEFI_DRV@"
+        font = " "
+        color = "white"
+        align = "left"
+    }
+}
